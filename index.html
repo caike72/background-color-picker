@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+        function selecionarCor() {
+            var cor = document.getElementById('cor').value
+            document.getElementById('quadrado').style.background = cor
+        }
+
+    </script>
+</head>
+<body id="quadrado">
+     <h3>Manipulando estilo</h3>
+        <input type="color"  id="cor" name="cor">
+        <label for="cor">Selecione uma cor</label>
+        <button onclick="selecionarCor()">Aperta</button>
+    
+    
+</body>
+</html>
+
